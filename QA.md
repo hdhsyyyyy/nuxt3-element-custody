@@ -1,4 +1,4 @@
-Q: 使用unplugin-vue-components插件按需引入element-plus后，热更新element组件失效
+Q: 使用unplugin-vue-components插件按需引入element-plus后，热更新element组件失效\
 A: 判断可能是unplugin-vue-components组件对nuxt3 hmr的支持性问题，舍弃按需引入改成在plugins里手动引入
 
 
