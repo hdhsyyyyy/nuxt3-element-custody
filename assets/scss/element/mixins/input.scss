@@ -1,0 +1,24 @@
+.el-input {
+  --at-apply: h-45px;
+
+  &__wrapper {
+    --at-apply: pl-16px pr-16px;
+  }
+
+  ::-webkit-input-placeholder {
+    font-size: 16px;
+    font-weight: 500;
+  }
+}
+
+.el-textarea {
+  &__inner {
+    --at-apply: text-size-16px pl-16px pr-16px leading-35px;
+  }
+
+  ::-webkit-input-placeholder {
+    color: theme('colors.tertiary.icon');
+    font-size: 16px;
+    font-weight: 500;
+  }
+}

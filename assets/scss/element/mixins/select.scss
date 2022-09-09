@@ -1,0 +1,18 @@
+.el-select {
+  &-dropdown__item {
+    --at-apply: font-medium;
+    &.hover {
+      --at-apply: font-semibold;
+    }
+  }
+  .el-input {
+    border: 1px solid theme('colors.tertiary.border');
+    &__wrapper {
+      --at-apply: shadow-none;
+      padding: 1px 12px;
+    }
+    &__inner {
+      --at-apply: text-size-12px font-medium h-32px;
+    }
+  }
+}

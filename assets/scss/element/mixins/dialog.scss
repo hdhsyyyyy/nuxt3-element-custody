@@ -1,0 +1,65 @@
+.el-dialog {
+  &__header {
+    --at-apply: pt-34px pl-44px;
+  }
+
+  &__headerbtn {
+    --at-apply: top-10px right-5px;
+    .el-dialog__close {
+      --at-apply: text-size-20px color-primary;
+    }
+  }
+
+  &__body {
+    --at-apply: px-44px;
+  }
+
+  &__title {
+    --at-apply: text-size-24px font-bold;
+  }
+
+  &__subtitle {
+    --at-apply: font-medium text-size-12px text-font-tertiary ml-8px;
+  }
+
+  &__description {
+    --at-apply: h-20px leading-20px text-size-12px text-font-tertiary mb-8px;
+  }
+
+  // footer
+  &__footer {
+    --at-apply: flex px-44px pb-56px justify-around;
+    button {
+      --at-apply: w-240px h-48px text-size-16px font-semibold;
+      &:not(:first-child) {
+        --at-apply: ml-32px;
+      }
+    }
+  }
+
+  // dialog-form
+  @at-root .el-form-item {
+    --at-apply: mb-28px;
+  }
+
+  .el-form-item__label {
+    --at-apply: text-font-tertiary;
+  }
+
+  .el-form--default.el-form--label-top .el-form-item .el-form-item__label {
+    --at-apply: mb-4px;
+  }
+
+  .form-item__content__text {
+    --at-apply: leading-24px mr-10px text-size-16px font-semibold;
+  }
+
+  // dialog-input
+  .el-input {
+    --at-apply: text-size-16px font-semibold;
+  }
+
+  .el-space__item:last-child {
+    margin-right: 0 !important;
+  }
+}

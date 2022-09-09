@@ -1,0 +1,7 @@
+.el-dropdown__popper {
+  .el-popper__arrow {
+    &::before {
+      display: none;
+    }
+  }
+}

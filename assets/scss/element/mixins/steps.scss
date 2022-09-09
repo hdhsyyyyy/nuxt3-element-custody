@@ -1,0 +1,29 @@
+.el-step {
+  &__icon {
+    --at-apply: w-16px h-16px bg-font-secondary text-size-12px color-font-white;
+    &.is-text {
+      --at-apply: border-transparent;
+    }
+  }
+
+  &.is-horizontal .el-step__line {
+    --at-apply: bg-tertiary-border border-transparent ml-30px mr-16px top-9px;
+  }
+
+  &__title {
+    --at-apply: text-size-12px h-24px leading-24px mt-7px;
+  }
+
+  .is-process,
+  .is-finish {
+    .el-step__icon {
+      --at-apply: bg-primary;
+    }
+  }
+
+  .is-finish {
+    .el-step__line {
+      --at-apply: bg-font-main;
+    }
+  }
+}

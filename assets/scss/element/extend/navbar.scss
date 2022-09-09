@@ -1,0 +1,24 @@
+// 暗黑风格 dropdown for NavBar
+.dark-popper.is-light {
+  border: none;
+
+  .el-dropdown-menu {
+    margin-top: 5px;
+    background-color: theme('colors.primary');
+  }
+
+  .el-dropdown-menu__item {
+    --at-apply: font-medium;
+    padding: 13px 0;
+    color: theme('colors.tertiary.bg');
+
+    &:not(.is-disabled):focus {
+      background-color: transparent;
+      color: theme('colors.tertiary.bg');
+    }
+
+    i {
+      margin-right: 8px;
+    }
+  }
+}

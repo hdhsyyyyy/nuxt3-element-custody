@@ -1,0 +1,11 @@
+.el-notification {
+  background-color: theme('colors.primary');
+
+  &__content {
+    --at-apply: leading-20px;
+  }
+
+  .el-notification__closeBtn {
+    --at-apply: top-12px right-12px;
+  }
+}

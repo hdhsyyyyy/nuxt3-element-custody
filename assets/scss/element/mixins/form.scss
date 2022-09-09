@@ -1,0 +1,7 @@
+.el-form {
+  &-item {
+    &__error {
+      --at-apply: text-size-12px leading-20px;
+    }
+  }
+}

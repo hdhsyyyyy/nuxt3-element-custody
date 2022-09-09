@@ -1,0 +1,110 @@
+// color
+$colors: (
+  'primary': (
+    'base': #19191d,
+  ),
+  'success': (
+    'base': #00dc5f,
+  ),
+  'warning': (
+    'base': #fdb022,
+  ),
+  'danger': (
+    'base': #f5223b,
+  ),
+  'error': (
+    'base': #f5223b,
+  ),
+);
+
+// border
+$border-color: (
+  '': theme('colors.font.tertiary'),
+);
+$border-radius: (
+  'round': 50px,
+);
+
+// text
+$text-color: (
+  '': theme('colors.font.tertiary'),
+  'placeholder': theme('colors.font.tertiary'),
+  'regular': theme('colors.primary'),
+);
+
+// input
+$input: (
+  'placeholder-color': theme('colors.tertiary.icon'),
+  'bg-color': theme('colors.tertiary.bg'),
+  'border-color': theme('colors.tertiary.icon'),
+);
+
+// button
+$button: (
+  'disabled-bg-color': theme('colors.tertiary.disabled'),
+  'disabled-border-color': 'transparent',
+  'text-color': theme('colors.font.main'),
+);
+
+// radio
+$radio: (
+  'input-height': 12px,
+  'input-width': 12px,
+);
+
+// select
+$select-option: (
+  'height': 42px,
+  'hover-background': theme('colors.tertiary.divider'),
+);
+
+// cascader
+$cascader: (
+  'node-background-hover': theme('colors.tertiary.divider'),
+);
+
+// dialog
+$dialog: (
+  'border-radius': 8px,
+);
+
+// table
+$table: (
+  'row-hover-bg-color': theme('colors.tertiary.bg'),
+  'header-text-color': theme('colors.font.tertiary'),
+  'border-color': theme('colors.tertiary.divider'),
+);
+$table-padding: (
+  'default': 22px 0,
+);
+
+// pagination
+$pagination: (
+  'button-width': 36px,
+  'button-height': 36px,
+  'button-bg-color': 'transparent',
+  'button-disabled-bg-color': 'transparent',
+);
+
+// notification
+$notification: (
+  'width': 264px,
+  'radius': 4px,
+  'padding': 24px 27px 24px 17px,
+  'group-margin-left': 7px,
+  'icon-size': 16px,
+  'content-color': theme('colors.font.white'),
+  'content-font-size': 12px,
+  'title-color': theme('colors.font.white'),
+  'title-font-size': 14px,
+  'close-color': theme('colors.font.tertiary'),
+  'close-hover-color': theme('colors.font.tertiary'),
+  'border-color': 'transparent',
+);
+
+// empty
+$empty: (
+  'padding': 95px 0,
+  'description-margin-top': 27px,
+  'image-width': 100px,
+);

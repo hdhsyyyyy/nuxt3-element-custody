@@ -1,0 +1,48 @@
+.el-cascader {
+  .el-input {
+    border: 1px solid theme('colors.tertiary.border');
+
+    .el-input__suffix-inner .el-icon {
+      --at-apply: w-14px;
+    }
+  }
+  &__empty-text {
+    --at-apply: text-size-12px;
+  }
+}
+
+.el-cascader-menu {
+  --at-apply: min-w-238px;
+
+  &__list {
+    padding: 20px 10px 20px 20px;
+
+    li {
+      --at-apply: pl-8px font-semibold font-size-12px;
+
+      &:hover {
+        --at-apply: rounded-4px;
+      }
+
+      .el-radio__inner {
+        --at-apply: border-color-tertiary-icon;
+
+        &::after {
+          --at-apply: w-6px h-6px;
+        }
+      }
+
+      .el-radio__input.is-checked .el-radio__inner {
+        background: transparent;
+
+        &::after {
+          background: theme('colors.primary');
+        }
+      }
+    }
+
+    .el-cascader-node__postfix {
+      --at-apply: color-tertiary-icon;
+    }
+  }
+}

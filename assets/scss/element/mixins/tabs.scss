@@ -1,0 +1,20 @@
+.el-tabs__nav-wrap::after {
+  display: none;
+}
+
+.el-tabs__active-bar {
+  display: none;
+}
+
+.el-tabs__item {
+  --at-apply: text-size-28px;
+  color: theme('colors.font.main');
+
+  &.is-active {
+    --at-apply: text-size-32px;
+  }
+}
+
+.el-tabs__header {
+  --at-apply: mb-0;
+}

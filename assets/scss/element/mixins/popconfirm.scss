@@ -1,0 +1,11 @@
+.el-popconfirm {
+  --at-apply: pt-7px;
+  &__main {
+    --at-apply: pb-20px font-semibold;
+  }
+  &__action {
+    button {
+      --at-apply: w-84px h-32px rounded-50px;
+    }
+  }
+}

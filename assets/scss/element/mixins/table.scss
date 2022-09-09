@@ -1,0 +1,33 @@
+.el-table {
+  thead {
+    --at-apply: text-size-12px capitalize;
+  }
+
+  .el-button {
+    --at-apply: h-36px min-w-116px;
+    padding: 8px 26px;
+  }
+
+  .el-button + .el-button {
+    --at-apply: ml-16px;
+  }
+
+  .el-table__cell {
+    padding: 18px 0;
+
+    .cell {
+      --at-apply: text-size-14px leading-22px;
+      padding: 0 24px;
+    }
+  }
+
+  th.el-table__cell {
+    .cell {
+      --at-apply: text-size-12px;
+    }
+  }
+
+  &__empty-text {
+    --at-apply: text-font-tertiary leading-45px pt-50px pb-40px;
+  }
+}

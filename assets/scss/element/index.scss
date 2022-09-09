@@ -1,0 +1,25 @@
+@use './common/var.scss' as *;
+
+@forward 'element-plus/theme-chalk/src/common/var.scss' with (
+  // do not use same name, it will override.
+  $colors: $colors,
+  $text-color: $text-color,
+  $border-radius: $border-radius,
+  $border-color: $border-color,
+  $input: $input,
+  $button: $button,
+  $radio: $radio,
+  $select-option: $select-option,
+  $cascader: $cascader,
+  $dialog: $dialog,
+  $table: $table,
+  $pagination: $pagination,
+  $table-padding: $table-padding,
+  $notification: $notification,
+  $empty: $empty
+);
+
+@use 'element-plus/theme-chalk/src/index.scss' as *;
+
+@use './mixins/index.scss' as *;
+@use './extend/index.scss' as *;

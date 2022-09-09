@@ -1,0 +1,9 @@
+.el-tag--light {
+  border-color: transparent;
+  background: rgba(89, 126, 247, 0.08);
+  color: theme('colors.tertiary.tag');
+
+  &.el-tag--success {
+    background: rgba(0, 220, 95, 0.08);
+  }
+}
