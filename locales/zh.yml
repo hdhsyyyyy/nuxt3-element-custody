@@ -1,0 +1,94 @@
+common:
+  query:
+    confirm: 确认
+    reset: 重置
+    cancel: 取消
+    placeholder:
+      select_token: 请选择主链和币种
+  step:
+    confirm: 确认
+    next: 下一步
+    prev: 上一步
+  loading:
+    text: 加载中...
+  table:
+    emptyText: 搜索结果为空
+    action: 操作
+  coming:
+    text: 即将上线...
+  form:
+    optional: （可选的）
+  components:
+    copy: 复制
+    copy_success: 复制成功！
+  validate:
+    empty: 不能为空
+pages:
+  login:
+    title: 欢迎回来
+    email_label: 邮箱
+    password_label: 密码
+    ga_label: GA验证码
+    email_placeholder: 请输入邮箱
+    password_placeholder: 请输入密码
+    ga_placeholder: 请输入GA验证码
+    submit: 登录
+  ga:
+    title: 激活NH账户
+    step_add_token: 添加ga令牌
+    step_verify_token: 验证令牌
+    add_token: 下载并安装 google 身份验证器应用
+    add_token_key: 添加令牌验证密钥
+    download_apple: 在应用商店下载
+    download_google: 在 google play 上下载
+    desc: 打开谷歌验证器，扫描上方二维码，或手动输入下述密钥添加验证令牌
+    verify_label: GA验证码
+    verify_placeholder: 请输入GA验证码
+  account:
+    nav: 账户
+  wallet:
+    nav: 钱包
+    column:
+      coin: 币种
+      network: 网络
+      amount: 金额
+    deposit:
+      title: 充值
+      network_label: 网络
+      memo_label: Memo
+      address_label: 地址
+      reset_address: 重置地址
+      reset_confirm: 确认重置地址？
+      description1: 此地址只能接收ETH
+      description2: 即使生成新地址，老地址依然可用
+      description3: 请再次确认您选择的主网络是
+    withdraw:
+      title: 提现
+      address_label: 地址
+      network_label: 网络
+      memo_label: Memo
+      amount_label: 提现金额
+      address_placeholder: 请输入您的地址
+      memo_placeholder: 请输入Memo
+      amount_placeholder: 请输入金额
+      fee: 预计手续费
+      fee_description: 实际扣除手续费以链上确认为准
+  trade:
+    nav: 交易
+  address:
+    nav: 地址
+  staking:
+    nav: 理财
+  admin:
+    nav: 管理员
+    query:
+      enter_email: 请输入邮箱
+      select_states: 状态
+    column:
+      name: 姓名
+      email: 邮箱
+      limits: 角色
+      states: 状态
+  user:
+    center: 个人中心
+    exit: 退出

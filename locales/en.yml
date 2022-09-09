@@ -1,0 +1,94 @@
+common:
+  query:
+    confirm: Confirm
+    reset: Reset
+    cancel: Cancel
+    placeholder:
+      select_token: Please select the main chain and currency
+  step:
+    confirm: Confirm
+    next: Next
+    prev: Previous
+  loading:
+    text: Just a second...
+  table:
+    emptyText: No search content
+    action: Action
+  coming:
+    text: Coming soon...
+  form:
+    optional: (Optional)
+  components:
+    copy: Copy
+    copy_success: Copy Success！
+  validate:
+    empty: Can't be empty
+pages:
+  login:
+    title: Welcome Back
+    email_label: Email
+    password_label: Password
+    ga_label: GA Code
+    email_placeholder: Please Enter Email Account
+    password_placeholder: Please Enter Password
+    ga_placeholder: Please Enter GA Code
+    submit: Log In
+  ga:
+    title: Activate NH account
+    step_add_token: Add GA token
+    step_verify_token: Verification token
+    add_token: Download and install the Google Authenticator App
+    add_token_key: Add token verification key
+    download_apple: Download on APP Store
+    download_google: Download on Google Play
+    desc: Open Google Validator, scan the QR code above, or manually enter the key below to add the validation token
+    verify_label: Google Authenticator verification code
+    verify_placeholder: Please Enter GA Code
+  account:
+    nav: Account
+  wallet:
+    nav: Wallet
+    column:
+      coin: Coin
+      network: Network
+      amount: Amount
+    deposit:
+      title: Deposit
+      network_label: Deposit NetWork
+      memo_label: Memo
+      address_label: Address
+      reset_address: Reset Address
+      reset_confirm: Confirm to reset address?
+      description1: This address can receive ETH only
+      description2: Even if a new address is generated, the old address is still available
+      description3: Please confirm that the primary network you selected is
+    withdraw:
+      title: Withdraw
+      address_label: Address
+      network_label: NetWork
+      memo_label: Memo
+      amount_label: Withdraw Amount
+      address_placeholder: Please Enter Your Address
+      memo_placeholder: Please Enter Memo
+      amount_placeholder: Please Enter Amount
+      fee: Estimated service fee
+      fee_description: The actual deducted commission fee is subject to the confirmation on the chain
+  trade:
+    nav: Trade
+  address:
+    nav: Address
+  staking:
+    nav: Staking
+  admin:
+    nav: Admin
+    query:
+      enter_email: Please Enter Email
+      select_states: States
+    column:
+      name: Name
+      email: Email
+      limits: Limits
+      states: States
+  user:
+    center: Personal center
+    exit: Log Out
